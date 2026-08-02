@@ -143,5 +143,5 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Stacks running on port ${PORT} — data dir: ${DATA_DIR}`);
+  console.log(`BackOfficeBooks running on port ${PORT} — data dir: ${DATA_DIR}`);
 });
