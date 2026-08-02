@@ -1,4 +1,18 @@
-node_modules/
-data/
-npm-debug.log*
-.DS_Store
+{
+  "name": "stacks-book-inventory",
+  "version": "1.0.0",
+  "description": "A small book inventory manager with a 3D shelf view",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "multer": "^2.0.1"
+  }
+}
